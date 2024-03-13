@@ -1,21 +1,17 @@
-# CredoMultiAliasExample
+```bash
+mix credo
+Checking 4 source files ...
 
-**TODO: Add description**
+  Consistency
+┃
+┃ [C] ↗ Most of the time you are using the multi-alias/require/import/use syntax, but here you are using
+┃       multiple single directives
+┃       lib/some_module.ex:9:9 #(SomeModule.a)
 
-## Installation
+Please report incorrect results: https://github.com/rrrene/credo/issues
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `credo_multi_alias_example` to your list of dependencies in `mix.exs`:
+Analysis took 0.05 seconds (0.03s to load, 0.02s running 68 checks on 4 files)
+7 mods/funs, found 1 consistency issue.
 
-```elixir
-def deps do
-  [
-    {:credo_multi_alias_example, "~> 0.1.0"}
-  ]
-end
+Use `mix credo explain` to explain issues, `mix credo --help` for options.
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/credo_multi_alias_example>.
-
